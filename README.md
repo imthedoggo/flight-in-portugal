@@ -2,6 +2,10 @@
 
 This project provides a API for search average price of flights and bags between Oporto and Lisbon (vice-versa).
 
+## Architecture
+
+![Flight-in-portugal Architecture](documentation/flight-in-portugal-architecture.png)
+
 ## Endpoints
 
 In this version 1 our API provides three REST endpoints:
@@ -78,10 +82,6 @@ Our API uses a third-party services, you can turn-off your internet to simulate 
 ## Api Logs
 
 All requests and responses that pass for our API are logged using interceptor and controllerAdvice. 
-
-## Architecture
-
-![Flight-in-portugal Architecture](documentation/flight-in-portugal-architecture.png)
 
 ## Run 
 
