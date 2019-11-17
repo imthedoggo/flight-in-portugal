@@ -1,4 +1,4 @@
-# API Error Codes
+# Flight in Portugal API Error Codes
 
 Learn more about our API errors codes and how to resolve them.
 

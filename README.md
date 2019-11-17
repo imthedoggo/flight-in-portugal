@@ -12,7 +12,7 @@ In this version 1 our API provides three REST endpoints:
 | GET    | /v1/requests          | Returns all requests made to third-party providers       |
 | DELETE | /v1/requests          | Deletes all saved requests made to third-party providers |
                      
-#### GET /v1/flights/avg-price
+### GET /v1/flights/avg-price
 
 In this get operation the parameters `fly_to` `fly_from` and `currency` are required.
 
@@ -34,7 +34,7 @@ Response example:
 }
 ```
 
-#### GET /v1/requests
+### GET /v1/requests
 
 Request example:
 ```
@@ -62,7 +62,7 @@ Response example:
 }
 ```
 
-#### DELETE /v1/requests
+### DELETE /v1/requests
 
 Request example:
 ```
@@ -81,7 +81,7 @@ All requests and responses that pass for our API are logged using interceptor an
 
 ## Architecture
 
-![Flight-in-portugal Architecture](documenntation/flight-in-portugal-architecture.png)
+![Flight-in-portugal Architecture](documentation/flight-in-portugal-architecture.png)
 
 ## Run 
 
