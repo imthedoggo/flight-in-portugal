@@ -1,16 +1,16 @@
 # Flight in Portugal API
 
-This project provides a API for search average price of flights and bags between Oporto and Lisbon and vice-versa.
+This project provides a API for search average price of flights and bags between Oporto and Lisbon (vice-versa).
 
 ## Endpoints
 
 In this version 1 our API provides three REST endpoints:
 
-| Method | Resource 		     | Description                                                |
-|--------|-----------------------|------------------------------------------------------------|
-| GET    | /v1/flights/avg-price | Returns flights average price                              |
-| GET    | /v1/requests          | Returns all requests made to a third-party providers       |
-| DELETE | /v1/requests          | Deletes all saved requests made to a third-party providers |
+| Method | Resource 		     | Description                                                  |
+|--------|-----------------------|----------------------------------------------------------|
+| GET    | /v1/flights/avg-price | Returns flights average price                            |
+| GET    | /v1/requests          | Returns all requests made to third-party providers       |
+| DELETE | /v1/requests          | Deletes all saved requests made to third-party providers |
                      
 #### GET /v1/flights/avg-price
 
