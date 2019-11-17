@@ -78,8 +78,6 @@ public class FlightServiceImpl implements FlightService {
             .getFlights(FlightUtils.createAirlinesParam(), flyFrom, flyTo, dateFrom, dateTo, PARTNER_CODE,
                 ONLY_DIRECT_FLIGHTS_FLAG, currency);
 
-        log.info("Flight data received: {}", flightData);
-
         if (flightData == null || flightData.getFlights() == null || flightData.getFlights().size() == 0) {
             throw new FlightNotFoundException(MESSAGE_FLIGHT_NOT_FOUND);
         }
@@ -149,8 +147,6 @@ public class FlightServiceImpl implements FlightService {
 
         final AirportData airportData = airportServiceProxy
             .getAirports(flyItinerary, LOCATION_AIRPORT, AIRPORT_DATA_LIMIT, AIRPORT_DATA_ACTIVE);
-
-        log.info("Airport data received: {}", airportData);
 
         if (airportData == null || airportData.getLocations() == null || airportData.getLocations().size() == 0) {
             throw new AirportNotFoundException(MESSAGE_AIRPORT_NOT_FOUND);
