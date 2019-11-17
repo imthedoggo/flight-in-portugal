@@ -127,7 +127,7 @@ Below the technologies used in this project:
 * JUnit5 - Unit tests.
 * Swagger - Api documentation and try-out.
 * Lombok - Avoid boilerplate java code.
-* MapStruct - Avoid boilerplate copy/past values code.
+* MapStruct - Avoid boilerplate copy values code.
 * Docker - Create a file for build a project image.
 * Docker-Compose - Make easy start the project databases in any environment.
 
