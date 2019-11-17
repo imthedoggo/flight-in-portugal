@@ -8,6 +8,7 @@ import static tech.marcusvieira.flightinportugal.utils.DateUtils.localDateToStri
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.Collections;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -67,7 +68,8 @@ public class RequestControllerIT {
 
         mockMvc.perform(get("/v1/requests/")
             .contentType(MediaType.APPLICATION_JSON))
-            .andExpect(status().isOk());
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.data").isEmpty());
     }
 
     private void performFlightAveragePriceRequest(FlightItinerary flyFrom, FlightItinerary flyTo, String dateFrom,
