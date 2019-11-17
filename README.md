@@ -109,7 +109,7 @@ spring.cache.redis.time-to-live=60000
 
 ## Try it out
 
-You can try out the API endpoints through Swagger-UI:
+You can try-it out the API endpoints through Swagger-UI:
 ```
 http://localhost:8080/swagger-ui.html
 ``` 
@@ -117,15 +117,14 @@ http://localhost:8080/swagger-ui.html
 ## Technologies
 Below the technologies used in this project:
 
-* Java 11 - programming language (current long-term support release version). 
-* Spring Boot Starter Web - 
+* Java 11 - programming language (current long-term support release version.
 * Spring Cloud OpenFeign - Web service clients.
-* Spring Boot Data JPA - 
+* Spring Boot Data JPA - Used to access postgres data.
 * Redis - Cache database.
 * Postgres - Requests database.
 * MockMVC - Integration tests.
 * JUnit5 - Unit tests.
-* Swagger - Api documentation and try-out.
+* Swagger - Api documentation and try-it out.
 * Lombok - Avoid boilerplate java code.
 * MapStruct - Avoid boilerplate copy values code.
 * Docker - Create a file for build a project image.
