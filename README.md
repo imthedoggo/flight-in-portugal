@@ -134,7 +134,7 @@ Below the technologies used in this project:
 ## Next Steps
 
 Here I left some ideas for improvements in our project:
-- Add security (if it is needed for the business perspective)
+- Add security at least in the get and delete request routes.
 - Change the requests database to MongoDB if we need to save all requests and not only the third-party providers, because with MongoDB we will have the flexibility of a NoSQL(schemaless) database.
 - Add test containers for unit and integration tests.
 - Migrate configurations to a spring-config-server.
