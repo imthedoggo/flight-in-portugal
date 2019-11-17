@@ -107,7 +107,7 @@ For test proposes the time-to-live for the cache is set to 1 minute. You can cha
 spring.cache.redis.time-to-live=60000
 ```
 
-## Try-out
+## Try it out
 
 You can try out the API endpoints through Swagger-UI:
 ```
