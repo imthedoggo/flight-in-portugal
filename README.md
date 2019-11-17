@@ -8,7 +8,7 @@ This project provides a API for search average price of direct flights between O
 
 ## Endpoints
 
-In this version 1 our API provides three REST endpoints:
+In this version one our API provides three REST endpoints:
 
 | Method | Resource 		     | Description                                                  |
 |--------|-----------------------|----------------------------------------------------------|
