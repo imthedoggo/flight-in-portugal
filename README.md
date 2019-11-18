@@ -1,6 +1,6 @@
 # Flight in Portugal API
 
-This project provides a API for search average price of direct flights between Oporto and Lisbon (vice-versa).
+This project provides a API for search average price of direct flights between Oporto and Lisbon (vice-versa) operated by TAP and Ryanair airlines.
 
 ## Architecture
 
