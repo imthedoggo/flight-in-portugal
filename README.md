@@ -95,6 +95,16 @@ Then start the spring application:
 mvn spring-boot:run
 ```
 
+To create the Jacoco test coverage report:
+```
+mvn clean test
+```
+
+Trigger SonarQube static code check:
+```
+mvn verify sonar:sonar
+``` 
+
 ## Cache 
 
 Our application uses Redis for cache the requests, you can use the redis-cli tool for check them:
