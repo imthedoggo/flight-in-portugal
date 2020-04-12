@@ -1,3 +1,9 @@
+## Continuous Integration Builds
+
+| CI Server | Status | 
+| --------- | ------ | 
+| Travis CI | [![Travis CI build status](https://travis-ci.com/marcusvieira88/flight-in-portugal.svg?branch=master)](https://travis-ci.com/marcusvieira88/flight-in-portugal) |
+
 # Flight in Portugal API
 
 This project provides a API for search average price of direct flights between Oporto and Lisbon (vice-versa) operated by TAP and Ryanair airlines.
