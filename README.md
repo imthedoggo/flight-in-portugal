@@ -1,8 +1,10 @@
 ## Continuous Integration Builds
 
-| CI Server | Status | 
-| --------- | ------ | 
-| Travis CI | [![Travis CI build status](https://travis-ci.com/marcusvieira88/flight-in-portugal.svg?branch=master)](https://travis-ci.com/marcusvieira88/flight-in-portugal) |
+| Travis CI | [![Travis CI build status](https://travis-ci.com/marcusvieira88/flight-in-portugal.svg?branch=master)](https://travis-ci.com/marcusvieira88/flight-in-portugal) |  
+
+## Static Code Analysis
+
+| SonarCloud | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=marcusvieira88_flight-in-portugal&metric=alert_status)](https://sonarcloud.io/dashboard?id=marcusvieira88_flight-in-portugal) |
 
 # Flight in Portugal API
 
