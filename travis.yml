@@ -1,5 +1,4 @@
-jdk:
-  - oraclejdk11
-
+language: java
+jdk: oraclejdk11
 script:
   mvn verify sonar:sonar
