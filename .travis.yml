@@ -1,4 +1,10 @@
 language: java
 jdk: oraclejdk11
+services:
+  - docker
+before_install:
+  - docker-compose up
 script:
   mvn verify sonar:sonar
+after_install:
+  - docker-compose down
